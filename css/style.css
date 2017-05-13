@@ -1,6 +1,28 @@
 
+body {
+  background-image: url("../images/grande/bg2.png");
+}
+
+.container {
+  margin-top: 15px;
+
+}
+
 .navbar {
   border: 0px;
+  background-color: transparent;
+
+
+}
+
+header {
+  background-image: url("../images/grande/header.png");
+  width: 100%;
+
+}
+
+h2 {
+  margin-left: 10px;
 }
 
 #logomobile {
@@ -17,11 +39,45 @@
   right: 5px;
 }
 
+
 p {
   font-size: 14px;
 }
+#taille {
+  width: 80%;
+  height: auto;
+}
+#taille li {
+  display: inline-block;
+  left: 10px;
+
+
+}
+
+#taille a {
+  padding: 2px 10px 2px 10px;
+  background-color: lightgrey;
+  color: grey;
+  text-align: center;
+
+}
+
+#taille a:hover {
+  background-color: rgb(47, 47, 47);
+  color: white;
+}
 
 @media (min-width:768px) {
+
+#taille {
+  width: 80%;
+  margin-left: 10px;
+
+}
+ h2 {
+   margin-left: 20px;
+ }
+
 
 
 }
@@ -30,7 +86,6 @@ p {
 
 #headerpetit {
   display: none;
-
 }
 
 p {
@@ -44,9 +99,38 @@ p {
   height: 260px;
 }
 
+#panierPC {
+  background-image: url("../images/grande/panier.png");
+  background-repeat: no-repeat;
+  height: 90px;
+}
 
+#taille {
+  position: fixed;
+  z-index: 1;
+  right: 20px;
+  top: 30%;
+  width: 70px;
 
 }
+
+
+#taille li {
+  display: inline;
+
+  height: 30px;
+
+}
+
+#taille a {
+  margin-bottom: 3px;
+}
+
+
+
+
+
+
 
 
 
