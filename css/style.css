@@ -124,6 +124,8 @@ footer {
   margin-right: 20px;
 }
 
+/*************BLOG******************/
+
 
 @media (min-width:768px) {
 
@@ -175,6 +177,17 @@ footer {
 
 #bas input {
   width: 150px;
+}
+
+/*********BLOG*********/
+.gif {
+  width: 480px;
+  height: 480px;
+}
+
+.nouveaute {
+  width: 760px;
+  height: 506px;
 }
 
 
