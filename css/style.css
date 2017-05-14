@@ -25,10 +25,6 @@ header {
 
 }
 
-footer {
-background-image: url("../images/grande/header.png");
-}
-
 h2 {
   margin-left: 10px;
 }
@@ -59,7 +55,6 @@ p {
   display: inline-block;
   left: 10px;
 
-
 }
 
 #taille a {
@@ -75,6 +70,61 @@ p {
   color: white;
 }
 
+#footerhaut a {
+  color: grey;
+  padding: 25px 5px;
+  position: absolute;
+  right: 3px;
+  width: 160px;
+  height: 67px;
+  font-size: 10px;
+  text-align: center;
+
+}
+
+#footerhaut a:hover{color: black;}
+
+.foot {
+  width: 160px;
+  height: 130px;
+  position: relative;
+
+}
+
+#footerhaut {
+  margin-left: 40px;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+#bas {
+  color: grey;
+}
+
+#bas P {
+  font-size: 10px;
+  margin-left: -20px;
+  width: 100%;
+}
+
+#bas label {
+  display: block;
+  font-size: 10px;
+  text-align: center;
+}
+
+#monemail {
+  width: 70%;
+}
+
+#bas a {
+  width: 100%;
+  margin-right: 20px;
+}
+
+
 @media (min-width:768px) {
 
 #taille {
@@ -85,6 +135,47 @@ p {
  h2 {
    margin-left: 20px;
  }
+
+ #footerhaut a {
+   background-color: rgba(0, 0, 0, 0.03);
+   width: 300px;
+   height: 80px;
+   font-size: 12px;
+   margin-top: 40px;
+   margin-right: 40px;
+   border: 1px solid lightgrey;
+   border-radius: 5px;
+ }
+
+.foot {
+  width: 370px;
+  height: 105px;
+}
+
+#bas {
+  margin-top: 50px;
+}
+
+#bas a {
+  border: none;
+  background: none;
+  font-size: 10px;
+  margin-right: 0px;
+  padding: 0px;
+}
+
+#bas P {
+  margin-top: 30px;
+}
+
+#bas label {
+  display: inline;
+  width: 100Px;
+}
+
+#bas input {
+  width: 150px;
+}
 
 
 }
@@ -152,8 +243,6 @@ h2 {
   margin-left: 60px;
 }
 
-
-
 p {
   font-size: 14px;
   text-align: center;
@@ -192,74 +281,43 @@ p {
   margin-bottom: 3px;
 }
 
-#footerhaut a {
-  color: grey;
-  border: 1px solid grey;
-  padding: 15px 30px 15px 115px;
+footer {
+background-image: url("../images/grande/header.png");
+width: 100%;
+height: 350px;
+}
 
-  position: absolute;
-  right: 3px;
+#footerhaut a {
+  padding: 15px 30px 15px 115px;
   background-color: rgba(0, 0, 0, 0.03);
   width: 300px;
   height: 75px;
-  border-radius: 5px;
   font-size: 12px;
 
 }
 
-#footerhaut a:hover{color: black;}
-
-
-* {
-  border: 1px solid black;
-}
-
-#foot1 {
+.foot {
   width: 370px;
   height: 105px;
 
-  position: relative;
-
-}
-
-#foot2 {
-  width: 370px;
-  height: 105px;
-;
-  position: relative;
-}
-#foot3 {
-  width: 370px;
-  height: 105px;
-
-  position: relative;
-}
-#foot4 {
-  width: 370px;
-  height: 105px;
-
-  position: relative;
-}
-#foot5 {
-  width: 370px;
-  height: 105px;
-
-  position: relative;
-}
-#foot6 {
-  width: 370px;
-  height: 105px;
-  ;
-  position: relative;
-}
-
-footer {
-  margin-top: 40px;
 }
 
 #footerhaut {
-  margin-left: 70px;
+  margin-left: 110px;
 }
+
+#bas a {
+  background: none;
+  width: 100%;
+  font-size: 10px;
+  margin-top: 0px;
+  margin-right: 100px;
+}
+
+#bas p {
+  margin-top: 10px;
+}
+
 
 
 
