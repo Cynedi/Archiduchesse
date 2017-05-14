@@ -25,6 +25,10 @@ header {
 
 }
 
+footer {
+background-image: url("../images/grande/header.png");
+}
+
 h2 {
   margin-left: 10px;
 }
@@ -187,6 +191,77 @@ p {
 #taille a {
   margin-bottom: 3px;
 }
+
+#footerhaut a {
+  color: grey;
+  border: 1px solid grey;
+  padding: 15px 30px 15px 115px;
+
+  position: absolute;
+  right: 3px;
+  background-color: rgba(0, 0, 0, 0.03);
+  width: 300px;
+  height: 75px;
+  border-radius: 5px;
+  font-size: 12px;
+
+}
+
+#footerhaut a:hover{color: black;}
+
+
+* {
+  border: 1px solid black;
+}
+
+#foot1 {
+  width: 370px;
+  height: 105px;
+
+  position: relative;
+
+}
+
+#foot2 {
+  width: 370px;
+  height: 105px;
+;
+  position: relative;
+}
+#foot3 {
+  width: 370px;
+  height: 105px;
+
+  position: relative;
+}
+#foot4 {
+  width: 370px;
+  height: 105px;
+
+  position: relative;
+}
+#foot5 {
+  width: 370px;
+  height: 105px;
+
+  position: relative;
+}
+#foot6 {
+  width: 370px;
+  height: 105px;
+  ;
+  position: relative;
+}
+
+footer {
+  margin-top: 40px;
+}
+
+#footerhaut {
+  margin-left: 70px;
+}
+
+
 
 
 
