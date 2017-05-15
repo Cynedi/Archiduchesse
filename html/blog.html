@@ -16,14 +16,14 @@
 
         <div class="row">
           <div class="hidden-xs hidden-sm col-md-4 ">
-            <img src="../images/grande/archiduchessePC.svg" alt="logo">
+            <img id="grandlogo" src="../images/grande/archiduchessePC.svg" alt="logo">
           </div>
 
         <div id="petitenav">
           <div class="hidden-xs hidden-sm col-md-4 ">
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Shop</a>
+                <a class="nav-link active" id="shopactive" href="index.html">Shop</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">Blog</a>
@@ -38,10 +38,9 @@
           </div>
         </div>
 
-
           <div class="hidden-xs hidden-sm col-md-4 ">
             <div id="panierPC">
-              <a>retour Boutique</a>
+              <a id="retour">retour Boutique</a>
             </div>
           </div>
         </div>
@@ -77,9 +76,9 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav list-inline">
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Info</a></li>
+          <li><a href="index.html"><br><br><br>Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
           <li><a href="#">Atelier</a></li>
         </ul>
         <ul class="nav navbar-nav">
@@ -180,8 +179,6 @@ Camille<br>
       <a href="">Le carnet</a>
   </aside>
 
-
-
 </main>
 
 <footer>
@@ -197,7 +194,7 @@ Camille<br>
         <a href="">Livraison 48/72h</a>
       </div>
       <div class="foot col-xs-6 col-sm-6 col-md-4">
-        <a href="">38 rue Michelet<br> 42 000 Saint-Etienne<br> 04.27.81.58.70</a>
+        <a href="contact.html">38 rue Michelet<br> 42 000 Saint-Etienne<br> 04.27.81.58.70</a>
       </div>
       <div  class="foot hidden-xs col-sm-6 col-md-4 ">
         <a href="">Facebook<br>Plus de 20 000<br>pouces en l'air</a>
@@ -213,7 +210,7 @@ Camille<br>
         <div class="footbas col-xs-12 col-sm-4 col-md-4">
           <p>Webdesign et developpement par Axome-Motorisé sous Prestashop</p>
         </div>
-        <div class=" footbas col-xs-1é col-sm-4 col-md-4">
+        <div class=" footbas col-xs-12 hidden-sm col-md-4">
           <label for="monemail">Newletter</label>
           <input id="monemail" type="email" placeholder="Votre e.mail"/>
           <button>Ok</button>
@@ -225,7 +222,6 @@ Camille<br>
     <div>
 
 </footer>
-
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>

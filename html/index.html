@@ -16,14 +16,14 @@
 
         <div class="row">
           <div class="hidden-xs hidden-sm col-md-4 ">
-            <img src="../images/grande/archiduchessePC.svg" alt="logo">
+            <img id="grandlogo" src="../images/grande/archiduchessePC.svg" alt="logo">
           </div>
 
         <div id="petitenav">
           <div class="hidden-xs hidden-sm col-md-4 ">
             <ul class="nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">Shop</a>
+                <a class="nav-link active" id="shopactive" href="index.html">Shop</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="blog.html">Blog</a>
@@ -41,7 +41,8 @@
 
           <div class="hidden-xs hidden-sm col-md-4 ">
             <div id="panierPC">
-              <p>0 produits dans<a>mon panier</a><p>
+              <span>0</span><p>produit dans<a> mon panier</a><p>
+                <p id="frais">Frais de port offert dans 42€</p>
             </div>
           </div>
         </div>
@@ -50,7 +51,7 @@
         <div class="row">
           <nav class="hidden-xs hidden-sm col-md-12 ">
             <ul class="nav nav-tabs navbar-collapse">
-              <li role="presentation" class="active"><a href="#"><img class="imgnav" src="../images/grande/devillePC.svg">De ville<span>Lisses et haute</span></a></li>
+              <li role="presentation" class="active"><a href="index.html"><img class="imgnav" src="../images/grande/devillePC.svg">De ville<span>Lisses et haute</span></a></li>
               <li role="presentation"><a href="#"><img class="imgnav" src="../images/grande/devillePC.svg">De luxe<span>Mis-bas fil d'écosse</span></a></li>
               <li role="presentation"><a href="#"><img class="imgnav" src="../images/grande/deluxePC.svg">Bouclette<span>Douces et chaudes</span></a></li>
               <li role="presentation"><a href="#"><img class="imgnav" src="../images/grande/bouclettePC.svg">Fantaisie<span>Drôle de chausettes</span></a></li>
@@ -77,9 +78,9 @@
 
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="navbar-nav list-inline">
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Blog</a></li>
-          <li><a href="#">Info</a></li>
+          <li><a href="index.html"><br><br><br>Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact">Contact</a></li>
           <li><a href="#">Atelier</a></li>
         </ul>
         <ul class="nav navbar-nav">
@@ -111,7 +112,7 @@
     <h2>Chausettes de ville</h2>
   <div id="taille">
     <ul class="nav nav-pills nav-stacked">
-      <li role="presentation" class="active"><a href="#">Toutes</a></li>
+      <li role="presentation" class="active"><a id="tailleactive" href="#">Toutes</a></li>
       <li role="presentation"><a href="#">31/35</a></li>
       <li role="presentation"><a href="#">36/41</a></li>
       <li role="presentation"><a href="#">42/46</a></li>
@@ -311,7 +312,7 @@
         <a href="">Livraison 48/72h</a>
       </div>
       <div class="foot col-xs-6 col-sm-6 col-md-4">
-        <a href="">38 rue Michelet<br> 42 000 Saint-Etienne<br> 04.27.81.58.70</a>
+        <a href="contact.html">38 rue Michelet<br> 42 000 Saint-Etienne<br> 04.27.81.58.70</a>
       </div>
       <div  class="foot hidden-xs col-sm-6 col-md-4 ">
         <a href="">Facebook<br>Plus de 20 000<br>pouces en l'air</a>
@@ -327,7 +328,7 @@
         <div class="footbas col-xs-12 col-sm-4 col-md-4">
           <p>Webdesign et developpement par Axome-Motorisé sous Prestashop</p>
         </div>
-        <div class=" footbas col-xs-1é col-sm-4 col-md-4">
+        <div class=" footbas col-xs-12 hidden-sm col-md-4">
           <label for="monemail">Newletter</label>
           <input id="monemail" type="email" placeholder="Votre e.mail"/>
           <button>Ok</button>
