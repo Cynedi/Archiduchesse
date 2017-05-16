@@ -2,7 +2,7 @@
 *********************GENERALE******************************
 ************************************************************/
 body {
-  background-image: url("../images/grande/bg2.png");
+  background-image: url("images/grande/bg2.png");
 }
 
 .container {
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background-image: url("../images/grande/header.png");
+  background-image: url("images/grande/header.png");
   width: 100%;
 }
 
@@ -169,7 +169,7 @@ aside {
 /*****************CONTACT*************************/
 
 .formulaire {
-  background-image: url("../images/grande/floral.jpg");
+  background-image: url("images/grande/floral.jpg");
   background-size: cover;
   margin-top: -20px;
 }
@@ -381,7 +381,7 @@ p {
 }
 
 #panierPC {
-  background-image: url("../images/grande/panier.png");
+  background-image: url("images/grande/panier.png");
   background-repeat: no-repeat;
   height: 90px;
   width: 300px;
@@ -451,7 +451,7 @@ p {
 /*********************FOOTER************************/
 
 footer {
-  background-image: url("../images/grande/header.png");
+  background-image: url("images/grande/header.png");
   width: 100%;
   height: 350px;
 }
